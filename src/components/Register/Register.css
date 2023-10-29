@@ -1,0 +1,30 @@
+.flabel1{
+  padding-right: 105px;
+}
+.flabel2{
+  padding-right: 96px;
+}
+.flabel3{
+  padding-right: 42px;
+}
+.flabel4{
+  padding-right: 83px;
+}
+.flabel5{
+  padding-right: 25px;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #1a642a;
+  --bs-btn-hover-color: #e5e3db;
+  --bs-btn-hover-bg: #3071d0;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #5eca13;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}

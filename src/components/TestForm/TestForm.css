@@ -1,0 +1,71 @@
+.test-form h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.test-form label {
+  font-weight: bold;
+  max-height: 0px;
+
+}
+
+.test-form select,
+.test-form input {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 11px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  box-sizing: border-box;
+  border: 1px solid #0bab60;
+  font-weight: bold;
+  color:rgb(4, 3, 12);
+  font-size: 16px;
+}
+
+
+
+.test-form button:hover {
+  background-color: darkblue;
+}
+
+.text-danger {
+  color: red;
+}
+
+.test-form {
+  background-color: rgba(255, 153, 51, 0.5); /* Semi-transparent orange color */
+  border: 1px solid #e1e10b;
+  box-shadow: 0 2px 4px rgba(10, 185, 182, 0.1);
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 15px;
+  color: #fff;
+height: 600px;}
+
+
+
+/* Add more styles here */
+
+.test-form button {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+ 
+
+}
+.flabel2{
+  font-size:18px;
+  color: darkblue;
+  margin-bottom: 10px;
+  text-align:right;
+  margin-left:1px ;
+}
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+/* Style for the overall container */
+.home-container {
+   
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Style for the content within the home page */
+  .home-content {
+    padding: 50px;
+    text-align: center;
+    color: #333;
+    font-weight :bold;
+    margin-top:0px;
+ 
+  }
+  
+  /* Style for the main heading */
+  .home-heading {
+    margin-top: 30px;
+    color: #260593;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Style for the paragraphs */
+  .home-paragraph {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Style for the links within the paragraphs */
+  .home-paragraph a {
+    color: #FF5733;
+    text-decoration: none;
+  }
+  
+  .home-paragraph a:hover {
+    text-decoration: underline;
+  }

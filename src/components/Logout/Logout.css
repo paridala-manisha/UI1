@@ -1,0 +1,31 @@
+/* Style the logout button */
+.Logout {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #f44336;
+    color: rgb(223, 234, 236);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    
+  }
+  
+  .Logout:hover {
+    background-color: #d32f2f;
+  }
+  .logout-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  }
+  
+  .slogan {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

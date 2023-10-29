@@ -1,0 +1,14 @@
+.loginName{
+  padding-right: 23px;
+}
+.loginform{
+ margin-left:'0px';
+}
+.btn.btn-info:hover {
+  background-color: rgb(120, 95, 120); /* Change to a slightly different color on hover */
+}
+
+/* Active (clicked) state */
+.btn.btn-info:active {
+  background-color: rgb(100, 75, 100); /* Change to another color when the button is clicked */
+}

@@ -1,0 +1,159 @@
+.form-button {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    cursor: pointer;
+    border-radius: 70%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    color: white;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  /* Navbar.css */
+  
+  /* Existing styles */
+  
+  /* Navbar.css */
+  
+  /* Existing styles */
+  
+  /* Navbar.css */
+  
+  /* Existing styles */
+  
+  .menu-container {
+    position: fixed;
+    top: 60px; /* Adjust the top position to leave space for the button */
+    left: -300px; /* Start offscreen to the left */
+    width: 300px; /* Adjust the width as needed */
+    height: 30%;
+    background-color: #c4f0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    z-index: 1; /* Ensure it's below the button */
+    transition: left 0.3s ease-in-out; /* Add a transition effect */
+  }
+  /* Navbar.css */
+  /* Navbar.css */
+  .head {
+    background-color:#00004d; /* Blue color with 50% opacity */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 60px; /* Ensure the Navbar is on top of other content */
+    /* Add other styles as needed */
+  }
+  
+  
+  
+  
+  .menu-container.open {
+    left: 0; /* Slide in when 'open' class is applied */
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #100e38;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight:bold;
+  }
+  .menu-link1 {
+    text-decoration: none;
+    color: #100e38;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    margin-left: -3px;
+  }
+  
+  /* Add padding or margin to the content area */
+  .content {
+    padding-left: 20px; /* Adjust as needed to create space for the menu */
+    transition: padding-left 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  .menu-container.open + .content {
+    padding-left: 240px; /* Adjust as needed to match the menu width */
+  }
+  /* Navbar.css */
+  
+  /* Existing styles */
+  
+  /* Navbar.css */
+  
+  /* Existing styles */
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right */
+  }
+  
+  .profile-button {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: -40px;
+    
+  }
+  .circular-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border: 2px solid #f9f8f9; /* Border color and width */
+    border-radius: 50%; /* Makes it a circle */
+    margin-top:-13px;
+  }
+  
+  .profile-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add a background color on hover */
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 60px; /* Adjust the top position for dropdown */
+    right: 0px; /* Adjust the right position for dropdown */
+    background-color: #c4f0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 3; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:200px;
+    margin-top: '10px';
+  }
+  
+  .profile-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #100e38;
+    font-size: 22px;
+  
+    font-weight:bold;
+  }
+  .profile-link1 {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #b40d0d;
+    font-size: 22px;
+  
+    font-weight:bold;
+  }
+  
+  /* Add other styles for menu-button, menu-links, and other elements as needed */
+  

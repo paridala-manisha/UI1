@@ -1,0 +1,18 @@
+.navData {
+    background-color: rgb(156, 70, 185);
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    height: 50px;
+    width: 100px;
+}
+
+
+.navData:hover {
+    background-color: #1c6389;
+}
